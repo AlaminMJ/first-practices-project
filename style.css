@@ -1,3 +1,80 @@
-h1{
-    color: aqua;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif;
+    box-sizing: border-box;
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin: 0;
+    padding: 0;
+}
+header{
+  
+    width: 100%;
+    background: #f5ecdb;
+}
+.header .container{
+    padding: 20px 80px;
+    margin: 0 auto;
+   
+
+}
+.header .container .navbar{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+    widows: 100%;
+}
+.header .container .navbar-logo span{
+    color: #f26200;
+    text-transform: uppercase;
+    font-size: 20px;
+   
+    font-weight: 700;
+
+}
+.header .container ul{
+    display: flex;
+}
+.header .container ul li{
+    padding: 10px 10px;
+    margin: 0 10px;
+    font-weight: 400;
+}
+.header .container ul li a{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 18px;
+
+}
+.header .container ul li a:hover{
+    color: #000000;
+}
+.header .container ul li .active{
+    color:#000000;
+}
+.header .container .content{
+    padding: 150px 0;
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+}
+.header .container .content h1{
+    font-size: 60px;
+    color: #f26200;
+
+}
+.header .container .content p{
+    margin-top: 20px;
+    font-size: 18px;
 }
