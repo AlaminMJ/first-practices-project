@@ -207,6 +207,7 @@ header{
     font-size: 20px;
     color: #757575;
     line-height: 25px;
+    margin-bottom: 40px;
     
 }
 .blog .container .card-wraper{
@@ -246,6 +247,7 @@ header{
 .blog .container .card-wraper .card .card-details p{
     font-size: 16px;
     font-weight: 400;
+   
 }
 .blog .container .card-wraper .card .card-footer{
     display: flex;
@@ -268,7 +270,7 @@ header{
    
     .blog .container .card-wraper .card .card-footer p{
         font-size: 15px;
-        font-weight: 500;
+        font-weight: 500; 
     }
     .brand-logo .container .wraper{
         display: grid;
