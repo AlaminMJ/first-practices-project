@@ -124,12 +124,13 @@ header{
 .portfolio .container .gellery{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
+    padding: 40px 0;
     grid-gap: 1.8rem;
 }
 .portfolio .container .gellery .img-item{
     height: 280px;
     overflow: hidden;
+    border-radius: 5px;
    
 }
 .portfolio .container .gellery .img-item img{
@@ -145,4 +146,46 @@ header{
 {
     
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.testimonials .container h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.testimonials .container .cards-wraper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 1.8rem;
+    padding: 40px 0;
+}
+.testimonials .container .cards-wraper .card-item{
+    background: #f5ecdb;
+    border-radius: 2px;
+    padding: 40px 30px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+
+}
+.testimonials .container .cards-wraper .card-item .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.testimonials .container .cards-wraper .card-item .head h3{
+    color: #f26200;
+    font-weight: 700;
+
+}
+.testimonials .container .cards-wraper .card-item  p{
+    font-size: 16px;
+    color: rgb(117, 117, 117);
+    line-height: 25px;
+    
+}
+.testimonials .container .cards-wraper .card-item .head img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
 }
