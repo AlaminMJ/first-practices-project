@@ -41,6 +41,7 @@ header{
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 700;
+    cursor: pointer;
 
 }
 .header .container ul{
@@ -188,4 +189,22 @@ header{
     width: 50px;
     border-radius: 50%;
     object-fit: cover;
+}
+.blog{
+    background: #f5ecdb;
+
+}
+.blog .container .head{
+padding: 40px 0;
+}
+.blog .container .head h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+.blog .container .head p{
+    font-size: 20px;
+    color: #757575;
+    line-height: 25px;
+    
 }
