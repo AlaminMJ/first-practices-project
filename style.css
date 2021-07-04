@@ -64,7 +64,7 @@ header{
     color:#000000;
 }
 .header .container .content{
-    padding: 150px 0;
+    padding: 120px 0;
     text-align: center;
     width: 750px;
     margin: 0 auto;
@@ -73,6 +73,11 @@ header{
     font-size: 60px;
     color: #f26200;
 
+}
+.header .container .content .play-icon .fa-play-circle{
+    font-size: 80px;
+    color: #f26200;
+    margin-top: 50px;
 }
 .header .container .content p{
     margin-top: 20px;
