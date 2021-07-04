@@ -22,7 +22,7 @@ header{
     width: 100%;
     background: #f5ecdb;
 }
-.header .container{
+.container{
     padding: 20px 80px;
     margin: 0 auto;
    
@@ -40,7 +40,6 @@ header{
     color: #f26200;
     text-transform: uppercase;
     font-size: 20px;
-   
     font-weight: 700;
 
 }
@@ -55,7 +54,6 @@ header{
 .header .container ul li a{
     color: rgba(0, 0, 0, 0.7);
     font-size: 18px;
-
 }
 .header .container ul li a:hover{
     color: #000000;
@@ -64,7 +62,7 @@ header{
     color:#000000;
 }
 .header .container .content{
-    padding: 120px 0;
+    padding: 180px 0;
     text-align: center;
     width: 750px;
     margin: 0 auto;
@@ -82,4 +80,69 @@ header{
 .header .container .content p{
     margin-top: 20px;
     font-size: 18px;
+}
+.banner{
+    width: 100%;
+    padding: 30px 0;
+}
+.banner .container .card{
+    display: flex;
+    width: 100%;
+
+}
+.banner .container .card .card-item {
+    width: 32%;
+    padding: 10px;
+    margin-right: 40px ;
+}
+.banner .container .card .card-item .card-icon {
+    font-size: 50px;
+    color: #f26200;
+
+
+}
+.banner .container .card .card-item h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+.banner .container .card .card-item p{
+    line-height: 1.7;
+    font-weight: 300;
+    color: rgb(117, 117, 117);
+    font-size: 17px;
+    background: rgb(255, 255, 255);
+    font-family: Jost, serif;
+    
+}
+.portfolio .container h2{
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.portfolio .container .gellery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+    grid-gap: 1.8rem;
+}
+.portfolio .container .gellery .img-item{
+    height: 280px;
+    overflow: hidden;
+   
+}
+.portfolio .container .gellery .img-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .5s;
+}
+.portfolio .container .gellery .img-item img:hover{
+    transform: scale(1.08);
+}
+.portfolio .container .gellery .img-item:hover.img-item
+{
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
